@@ -1,1 +1,3 @@
-rootProject.name = ""
+rootProject.name = "spring-search-autocomplete"
+include 'core'
+

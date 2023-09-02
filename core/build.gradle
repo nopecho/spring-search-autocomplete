@@ -1,0 +1,14 @@
+apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
+apply plugin: 'org.jetbrains.kotlin.plugin.spring'
+
+dependencies {
+    implementation 'org.ahocorasick:ahocorasick:0.6.3'
+    implementation 'com.google.guava:guava:32.1.2-jre'
+
+    implementation 'org.springframework.boot:spring-boot-starter'
+
+    annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
+
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
