@@ -41,7 +41,7 @@ open class AutoCompleteBeanConfig(
 ## usage
 
 빈으로 등록한 `AutoCompleteDictionary`에서 특정 단어에 대한 문자열 검색을 합니다.
-* `searchWithPrefix` 함수는 사전에서 접미사가 포함된 모든 문자열을 List 형태로 반환 합니다.
+* `searchWithPrefix` 함수는 사전에서 접두사가 포함된 모든 문자열을 List 형태로 반환 합니다.
 * `search` 함수는 사전에서 특정 단어가 포함된 모든 문자열을 List 형태로 반환 합니다.
 
 ### example
