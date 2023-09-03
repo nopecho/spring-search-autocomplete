@@ -7,13 +7,12 @@ data class AutoCompleteDictionary(
 ) {
 
     fun setup(keywords: List<String>) {
-        keywords.forEach { it.lowercase() }
         trie.insert(keywords)
     }
 
     fun setupLowCase(keywords: List<String>) {
-        val lower = keywords.map { it.lowercase() }
-        trie.insert(lower)
+        val lowercaseKeywords = keywords.map { it.lowercase() }
+        trie.insert(lowercaseKeywords)
     }
 
     fun searchWithPrefix(keyword: String, limit: Int = 20): List<String> {
