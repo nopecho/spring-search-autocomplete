@@ -2,7 +2,7 @@ package io.nopecho.search.autocomplete.trie
 
 import java.util.*
 
-data class SimpleTrie(
+data class StringTrie(
     private val root: TrieNode = TrieNode()
 ) {
 

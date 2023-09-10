@@ -1,9 +1,9 @@
 package io.nopecho.search.autocomplete.config
 
-import io.nopecho.search.autocomplete.trie.SimpleTrie
+import io.nopecho.search.autocomplete.trie.StringTrie
 
 data class AutoCompleteDictionary(
-    private val trie: SimpleTrie = SimpleTrie(),
+    private val trie: StringTrie = StringTrie(),
 ) {
 
     fun setup(keywords: List<String>) {
